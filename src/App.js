@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
 import fakeData from './fakeData/course';
+import Course from './Components/Course/Course';
 
-const data = fakeData.slice(0,15);
-console.log(data);
+
+
 
 
 function App() {
   return (
     <div>
-     
+     <Course></Course>
     </div>
   );
 }

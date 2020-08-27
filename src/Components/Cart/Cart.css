@@ -1,0 +1,21 @@
+.cart{
+    border: 1px solid gray;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(131, 131, 219);
+    background-color: rgb(176, 222, 230);
+    margin-top: 20px;
+    margin-left: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.purchase-btn{
+    background-color:rgb(72, 180, 199);
+    width: 150px;
+    height: 30px;
+   border: 2px solid gray;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   cursor: pointer;
+}
