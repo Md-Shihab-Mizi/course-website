@@ -9,8 +9,8 @@ const Cart = (props) => {
 
 // let total = 0;
 // for (let i = 0; i < cart.length; i++) {
-//     const product = cart[i];
-//     total = total + product.price;
+//     const product = cart[i].price;
+//     total = total + parseInt(product.price);
 // }
 
     return (

@@ -6,13 +6,16 @@ import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
 
 
-const Course = (product) => {
+const Course = () => {
     // console.log(fakeData);
     const first15 = fakeData.slice(0,15);
     const [courses, setCourses] = useState(first15);
+
+
 const [cart, setCart] = useState([])
-    const handleAddCourse = () =>{
-        const newCart = [...cart, product];
+    const handleAddCourse = (id) =>{
+        const results = fakeData.find( (course)=> course.id ===id)
+        const newCart = [...cart, results];
         setCart(newCart);
     }
     return (
