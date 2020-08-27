@@ -18,10 +18,15 @@
     margin-left: 20px;
 }
 .main-button{
-    background-color: gold;
     width: 150px;
-    height: 30px;
+    height: 35px;
    border: 2px solid gray;
-   border-radius: 5px;
+   border-top-right-radius: 15px;
+   border-bottom-left-radius: 15px;
    cursor: pointer;
+}
+.main-button:hover{
+    background-color:#228a9c;
+    color: white;
+    border:2px solid black;
 }
